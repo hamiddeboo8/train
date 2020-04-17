@@ -9,6 +9,8 @@ public class Category {
     ArrayList<Category> children = new ArrayList<Category>();
     ArrayList<Product> immediateProducts = new ArrayList<Product>();
     Category parent;
+    int a;
+    int b;
 
     Category(String name, Category parent) {
         this.name = name;
